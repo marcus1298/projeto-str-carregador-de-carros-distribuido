@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "node",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run","start:debug"],
+      "remoteRoot": "/app",
+      "localRoot": "${workspaceFolder}",
+      "restart": true,
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true,
+        "env": {
+          "NODE_ENV": "prod",
+          "GOOGLE_SERVICE_DOMAIN": "ms-backend",
+          "GOOGLE_SERVICE_PRIVATE_KEY": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJzn9jAysqQWCg\nIQL3Cf9UI2PENyWI2wNgtLtjghcywgoiCJHzQwS04JOUjw+V+2Vn+kwXxy4uCLZ8\nBfnDyhnHqjFOZ2+DG/L0dgejrMN8CqwUG17lUlgKcvWWMFXnIUOCYtHCd9TMOn6a\n9Zpw/YeDyuN+kKl932MlVDGS11ChUl7hCGQelmkCKtXYpghd01kBebhey9lzUJik\n2vSOwXxfHpmcQPdZv688gHKP5/7p3ByavelE+J854He2j/bzDWWsInqu+/jTdz3P\nG+JJMb82NNrxvjmhRvunveC4hxQCgaVPLBAsKWhgi+crFhJ3tQ6vXeJ9z5VfWmn/\nA4Z0BQELAgMBAAECggEAHL1KL0UTwB7zDkrf5mOSQklkm1xz0s4ckzNEiSgiep7f\nR40rOoFdqbleexEhRJg6jvi6c8Zwtqs/UGFKJQ5ikSiVK1fCreFsk6Y9cfCYHvxR\nbkRJmuSZAiqbUT9inxmsc2Se/7qwtOxS/Gl5YZmm02eGR2TS+8iKO5YxFdA7vNrC\nnLJgHuIQo7X2gXUo84WI21u2X79lcRbBG3Gqcthik83XQg/yrCNXAb2V+i5HQglK\n8vUe9TUXoWitLMJg9/Rt2jHiNtQBsVaAvLu7aBJ2b0pFJSGGoYMAeEYWksaXhN9P\nOYwPvR1t3D7qsKlFnzycM6SHk9aflN/lqJf7HFIHnQKBgQDlcIVpspa0f+Nm8ZYB\nyzKolhv1/GFNkFL/WrADCWabZi8hLsrPy69Zu+iKLoJ317Q2xrz7Ov6H1IPcRyRU\nc8uLWVImm9OxJUivXANzWGX9WO69P0vrlI53sQZ74dPGtWRq/fBDECacor/VkOTg\n0FwTVqkU+AiMrugzhbtezC/UFQKBgQDhKxIbqdLMbbovlt+vOE3e0+asm1soeZt7\n9m2wwF+I409S+v1mmSiU9jmWQU6FWRTZQ2n7G+sxVaxMzW1xgj/zqPPt5CWjGLmE\n5wHF60EYE3tYCEDuEd6E2ilAZfi4rYcHNjZzA4oi15dVZUqsH8zuQ9qUj4OMA9vG\n9g6xzrkonwKBgQCe70EbpOCMjIKkDvnQqEehTMp1raxhpHY5+UIv+FUhlLlVDSrk\nor4HNQmynuE1zzBBOY4zofwrb2UgNA/QiJ4ZG3iy0gLklWUyRFUHk9ailvZaFfyr\nZi8CbpiFPDwNTB4Rl3LVodx9aKfmcwZ5TRxbMQ7TPbX+bjLfbeYLlvoSuQKBgQCW\nil1I8XlmA9Z/CrfyRgqJ99I5hISlwugZMOCVU4iL1K2sJPJWLf/b1+MYegEtVimC\nOHga0sej7EuN7apGQXbQSR0M54PiTx15pZih4m9a0Wudp6cBhCDpYZJC4+ouTpYA\nVFaC/tLUCJ+9EEOkYH56rhLtUCX67nl5w/h/GF7isQKBgHf/61iVy59w/5FJMPa/\nS3kIn8Q6tP9JF1hXhxhJaQQkWvguVChG2WMKaTfCd7Nh3/ZkQVHICq6Dxr+vgTsO\n8kFln3DIAXgNJktl1iqiW7RqsjQutz8J2A8XpUuB6IoBL8vJnnQrCRLjdfL47n3X\nAbJfixILvy/IjpvT0rs/0/Ut\n-----END PRIVATE KEY-----\n",
+          "GOOGLE_SERVICE_CLIENT_EMAIL": "applications@star-mobility.iam.gserviceaccount.com",
+          "GOOGLE_SECRET_ID": "233443134675"
+        }
+      },
+  ]
+}
